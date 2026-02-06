@@ -1,5 +1,5 @@
 import { createStorage } from '../../platform/storage'
-import { HistoryEntry } from '../models'
+import type { HistoryEntry } from '../models'
 
 const storage = createStorage()
 const KEY = 'core.history'

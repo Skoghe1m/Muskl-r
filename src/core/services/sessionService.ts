@@ -1,4 +1,4 @@
-import { ID, Session, SessionStatus, Workout, HistoryEntry } from '../models'
+import type { ID, Session, SessionStatus, Workout, HistoryEntry } from '../models'
 import { createStorage } from '../../platform/storage'
 import { getHistoryService } from './historyService'
 

@@ -1,5 +1,5 @@
 import { createStorage } from '../../platform/storage'
-import { ID, Workout, Exercise, Set } from '../models'
+import type { ID, Workout, Exercise, Set } from '../models'
 
 const storage = createStorage()
 const KEY = 'core.workouts'
