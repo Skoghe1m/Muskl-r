@@ -21,6 +21,3 @@ root.render(
   </React.StrictMode>
 )
 
-// PWA registration
-import { registerSW } from 'virtual:pwa-register'
-registerSW({ immediate: true })
