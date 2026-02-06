@@ -17,7 +17,7 @@ export default defineConfig({
         scope: '/Muskl-r/',
         display: 'standalone',
         background_color: '#ffffff',
-        theme_color: '#0ea5e9',
+        theme_color: '#16a34a',
         description: 'Mobile-first PWA with React, TypeScript, and Vite',
         icons: [
           { src: 'icons/icon.svg', sizes: 'any', type: 'image/svg+xml' },

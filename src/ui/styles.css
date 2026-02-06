@@ -1,13 +1,13 @@
 :root {
   --bg: #ffffff;
   --fg: #0f172a;
-  --accent: #0ea5e9;
+  --accent: #16a34a;
   --muted: #64748b;
 }
 :root[data-theme="dark"] {
   --bg: #0b1220;
   --fg: #e5e7eb;
-  --accent: #3b82f6;
+  --accent: #22c55e;
   --muted: #94a3b8;
 }
 * { box-sizing: border-box; }
