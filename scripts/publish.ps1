@@ -20,7 +20,7 @@ if (!(git remote | Select-String -SimpleMatch "origin")) {
 if ($Pat -ne "") {
   if ($RepoUrl -match '^https://github\.com/([^/]+)/(.+)$') {
     $owner = $Matches[1]
-    $url = $RepoUrl -replace '^https://github\.com/', "https://$owner:$Pat@github.com/"
+    $url = $RepoUrl -replace '^https://github\.com/', "https://${owner}:${Pat}@github.com/"
     git remote set-url origin $url
     git push -u origin main
     git remote set-url origin $RepoUrl
